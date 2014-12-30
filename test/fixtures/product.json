@@ -1,0 +1,32 @@
+{
+    "id": "http://linajohansson.se/product",
+    "properties": {
+        "id": {
+            "id": "http://linajohansson.se/product/id",
+            "required": false,
+            "type": "string"
+        },
+        "name": {
+            "id": "http://linajohansson.se/product/name",
+            "required": false,
+            "type": "string"
+        },
+        "price": {
+            "id": "http://linajohansson.se/product/price",
+            "required": false,
+            "type": "number"
+        },
+        "featured": {
+            "id": "http://linajohansson.se/product/featured",
+            "required": false,
+            "type": "boolean"
+        },
+        "description": {
+            "id": "http://linajohansson.se/product/description",
+            "required": false,
+            "type": "string",
+            "default": ""
+        }
+    },
+    "type": "object"
+}
